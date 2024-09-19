@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - DB_USER=aenzbi_user
+      - DB_PASSWORD=secure_password
+      - DB_NAME=aenzbi_db
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: aenzbi_user
+      POSTGRES_PASSWORD: secure_password
+      POSTGRES_DB: aenzbi_db
+    ports:
+      - "5432:5432"
