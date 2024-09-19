@@ -1,0 +1,455 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/app/io.tempage.dorynode-Q3mWoQEuVEpL2zV2ebp-wA==/lib/arm64/lib_node_v16.so',
+1 verbose cli   '/data/user/0/io.tempage.dorynode/files/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'nodemon',
+1 verbose cli   'eslint'
+1 verbose cli ]
+2 info using npm@6.14.17
+3 info using node@v16.15.1
+4 verbose npm-session 45618a71f48daddb
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/nodemon 1917ms (from cache)
+8 http fetch GET 304 https://registry.npmjs.org/eslint 1950ms (from cache)
+9 http fetch GET 200 https://registry.npmjs.org/nodemon/-/nodemon-3.1.6.tgz 1520ms
+10 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-9.10.0.tgz 1487ms
+11 silly pacote tag manifest for nodemon@latest fetched in 4050ms
+12 silly pacote tag manifest for eslint@latest fetched in 3482ms
+13 timing stage:loadCurrentTree Completed in 4834ms
+14 silly install loadIdealTree
+15 silly install cloneCurrentTreeToIdealTree
+16 timing stage:loadIdealTree:cloneCurrentTree Completed in 5ms
+17 silly install loadShrinkwrap
+18 timing stage:loadIdealTree:loadShrinkwrap Completed in 89ms
+19 silly install loadAllDepsIntoIdealTree
+20 silly resolveWithNewModule nodemon@3.1.6 checking installable status
+21 silly resolveWithNewModule eslint@9.10.0 checking installable status
+22 http fetch GET 200 https://registry.npmjs.org/minimatch 433ms (from cache)
+23 silly pacote range manifest for minimatch@^3.1.2 fetched in 452ms
+24 silly resolveWithNewModule minimatch@3.1.2 checking installable status
+25 http fetch GET 200 https://registry.npmjs.org/espree 785ms
+26 http fetch GET 200 https://registry.npmjs.org/espree/-/espree-10.1.0.tgz 336ms
+27 silly pacote range manifest for espree@^10.1.0 fetched in 1152ms
+28 silly resolveWithNewModule espree@10.1.0 checking installable status
+29 http fetch GET 200 https://registry.npmjs.org/find-up 1314ms
+30 http fetch GET 200 https://registry.npmjs.org/esquery 1322ms
+31 http fetch GET 304 https://registry.npmjs.org/is-glob 1418ms (from cache)
+32 http fetch GET 304 https://registry.npmjs.org/esutils 1428ms (from cache)
+33 silly pacote range manifest for is-glob@^4.0.0 fetched in 1438ms
+34 silly resolveWithNewModule is-glob@4.0.3 checking installable status
+35 silly pacote range manifest for esutils@^2.0.2 fetched in 1454ms
+36 silly resolveWithNewModule esutils@2.0.3 checking installable status
+37 http fetch GET 304 https://registry.npmjs.org/ajv 1483ms (from cache)
+38 http fetch GET 304 https://registry.npmjs.org/chalk 1500ms (from cache)
+39 silly pacote range manifest for ajv@^6.12.4 fetched in 1557ms
+40 silly resolveWithNewModule ajv@6.12.6 checking installable status
+41 silly pacote range manifest for chalk@^4.0.0 fetched in 1519ms
+42 silly resolveWithNewModule chalk@4.1.2 checking installable status
+43 http fetch GET 304 https://registry.npmjs.org/strip-ansi 543ms (from cache)
+44 silly pacote range manifest for strip-ansi@^6.0.1 fetched in 555ms
+45 silly resolveWithNewModule strip-ansi@6.0.1 checking installable status
+46 http fetch GET 200 https://registry.npmjs.org/ignore 3781ms
+47 http fetch GET 200 https://registry.npmjs.org/text-table 2342ms
+48 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz 2470ms
+49 http fetch GET 200 https://registry.npmjs.org/esquery/-/esquery-1.6.0.tgz 2517ms
+50 silly pacote range manifest for find-up@^5.0.0 fetched in 3849ms
+51 silly resolveWithNewModule find-up@5.0.0 checking installable status
+52 http fetch GET 200 https://registry.npmjs.org/@eslint%2fjs 3538ms
+53 http fetch GET 200 https://registry.npmjs.org/eslint-scope 2162ms
+54 http fetch GET 304 https://registry.npmjs.org/glob-parent 2376ms (from cache)
+55 http fetch GET 304 https://registry.npmjs.org/imurmurhash 2377ms (from cache)
+56 http fetch GET 304 https://registry.npmjs.org/cross-spawn 2432ms (from cache)
+57 silly pacote range manifest for esquery@^1.5.0 fetched in 3898ms
+58 silly resolveWithNewModule esquery@1.6.0 checking installable status
+59 silly pacote range manifest for imurmurhash@^0.1.4 fetched in 2392ms
+60 silly resolveWithNewModule imurmurhash@0.1.4 checking installable status
+61 silly pacote range manifest for cross-spawn@^7.0.2 fetched in 2456ms
+62 silly resolveWithNewModule cross-spawn@7.0.3 checking installable status
+63 http fetch GET 200 https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz 1194ms
+64 http fetch GET 200 https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz 1217ms
+65 http fetch GET 200 https://registry.npmjs.org/optionator 4590ms
+66 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz 1266ms
+67 http fetch GET 200 https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.0.2.tgz 1292ms
+68 silly pacote range manifest for text-table@^0.2.0 fetched in 3732ms
+69 silly resolveWithNewModule text-table@0.2.0 checking installable status
+70 http fetch GET 200 https://registry.npmjs.org/@eslint/js/-/js-9.10.0.tgz 1324ms
+71 silly pacote range manifest for ignore@^5.2.0 fetched in 5204ms
+72 silly resolveWithNewModule ignore@5.3.2 checking installable status
+73 http fetch GET 304 https://registry.npmjs.org/fast-deep-equal 1320ms (from cache)
+74 silly pacote range manifest for fast-deep-equal@^3.1.3 fetched in 1364ms
+75 silly resolveWithNewModule fast-deep-equal@3.1.3 checking installable status
+76 http fetch GET 200 https://registry.npmjs.org/lodash.merge 1441ms
+77 silly pacote range manifest for glob-parent@^6.0.2 fetched in 3798ms
+78 silly resolveWithNewModule glob-parent@6.0.2 checking installable status
+79 http fetch GET 200 https://registry.npmjs.org/natural-compare 1381ms
+80 silly pacote range manifest for eslint-scope@^8.0.2 fetched in 3589ms
+81 silly resolveWithNewModule eslint-scope@8.0.2 checking installable status
+82 silly pacote version manifest for @eslint/js@9.10.0 fetched in 5302ms
+83 silly resolveWithNewModule @eslint/js@9.10.0 checking installable status
+84 http fetch GET 304 https://registry.npmjs.org/is-path-inside 1423ms (from cache)
+85 silly pacote range manifest for is-path-inside@^3.0.3 fetched in 1430ms
+86 silly resolveWithNewModule is-path-inside@3.0.3 checking installable status
+87 http fetch GET 200 https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz 303ms
+88 silly pacote range manifest for optionator@^0.9.3 fetched in 5004ms
+89 silly resolveWithNewModule optionator@0.9.4 checking installable status
+90 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 336ms
+91 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 370ms
+92 http fetch GET 200 https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz 346ms
+93 http fetch GET 200 https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz 347ms
+94 http fetch GET 200 https://registry.npmjs.org/file-entry-cache 385ms
+95 silly pacote range manifest for lodash.merge@^4.6.2 fetched in 1836ms
+96 silly resolveWithNewModule lodash.merge@4.6.2 checking installable status
+97 silly pacote range manifest for natural-compare@^1.4.0 fetched in 1782ms
+98 silly resolveWithNewModule natural-compare@1.4.0 checking installable status
+99 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys 473ms
+100 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 319ms (from cache)
+101 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz 423ms
+102 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz 680ms
+103 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.0.0.tgz 448ms
+104 http fetch GET 200 https://registry.npmjs.org/@eslint%2fplugin-kit 933ms
+105 http fetch GET 200 https://registry.npmjs.org/@eslint%2fconfig-array 932ms
+106 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fretry 917ms
+107 http fetch GET 200 https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.1.0.tgz 691ms
+108 silly pacote range manifest for @nodelib/fs.walk@^1.2.8 fetched in 1079ms
+109 silly resolveWithNewModule @nodelib/fs.walk@1.2.8 checking installable status
+110 silly pacote range manifest for eslint-visitor-keys@^4.0.0 fetched in 986ms
+111 silly resolveWithNewModule eslint-visitor-keys@4.0.0 checking installable status
+112 silly pacote range manifest for escape-string-regexp@^4.0.0 fetched in 828ms
+113 silly resolveWithNewModule escape-string-regexp@4.0.0 checking installable status
+114 silly pacote range manifest for @eslint/eslintrc@^3.1.0 fetched in 1126ms
+115 silly resolveWithNewModule @eslint/eslintrc@3.1.0 checking installable status
+116 http fetch GET 200 https://registry.npmjs.org/@eslint-community%2fregexpp 826ms
+117 http fetch GET 200 https://registry.npmjs.org/json-stable-stringify-without-jsonify 321ms
+118 http fetch GET 200 https://registry.npmjs.org/@eslint/config-array/-/config-array-0.18.0.tgz 504ms
+119 http fetch GET 200 https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.1.0.tgz 527ms
+120 silly pacote range manifest for @eslint/config-array@^0.18.0 fetched in 1467ms
+121 silly resolveWithNewModule @eslint/config-array@0.18.0 checking installable status
+122 silly pacote range manifest for @eslint/plugin-kit@^0.1.0 fetched in 1481ms
+123 silly resolveWithNewModule @eslint/plugin-kit@0.1.0 checking installable status
+124 http fetch GET 200 https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz 1124ms
+125 silly pacote range manifest for file-entry-cache@^8.0.0 fetched in 1521ms
+126 silly resolveWithNewModule file-entry-cache@8.0.0 checking installable status
+127 http fetch GET 200 https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.11.1.tgz 363ms
+128 silly pacote range manifest for @eslint-community/regexpp@^4.11.0 fetched in 1211ms
+129 silly resolveWithNewModule @eslint-community/regexpp@4.11.1 checking installable status
+130 http fetch GET 200 https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz 324ms
+131 silly pacote range manifest for json-stable-stringify-without-jsonify@^1.0.1 fetched in 657ms
+132 silly resolveWithNewModule json-stable-stringify-without-jsonify@1.0.1 checking installable status
+133 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.3.0.tgz 802ms
+134 silly pacote range manifest for @humanwhocodes/retry@^0.3.0 fetched in 1752ms
+135 silly resolveWithNewModule @humanwhocodes/retry@0.3.0 checking installable status
+136 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fmodule-importer 852ms
+137 http fetch GET 200 https://registry.npmjs.org/@eslint-community%2feslint-utils 1616ms
+138 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz 324ms
+139 silly pacote range manifest for @humanwhocodes/module-importer@^1.0.1 fetched in 1195ms
+140 silly resolveWithNewModule @humanwhocodes/module-importer@1.0.1 checking installable status
+141 http fetch GET 200 https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz 341ms
+142 silly pacote range manifest for @eslint-community/eslint-utils@^4.2.0 fetched in 1980ms
+143 silly resolveWithNewModule @eslint-community/eslint-utils@4.4.0 checking installable status
+144 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 709ms
+145 silly pacote range manifest for eslint-visitor-keys@^3.3.0 fetched in 726ms
+146 silly resolveWithNewModule eslint-visitor-keys@3.4.3 checking installable status
+147 http fetch GET 200 https://registry.npmjs.org/@eslint%2fobject-schema 929ms
+148 http fetch GET 200 https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.4.tgz 581ms
+149 silly pacote range manifest for @eslint/object-schema@^2.1.4 fetched in 1525ms
+150 silly resolveWithNewModule @eslint/object-schema@2.1.4 checking installable status
+151 http fetch GET 304 https://registry.npmjs.org/brace-expansion 276ms (from cache)
+152 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 281ms
+153 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+154 http fetch GET 200 https://registry.npmjs.org/balanced-match 18ms (from cache)
+155 silly pacote range manifest for balanced-match@^1.0.0 fetched in 29ms
+156 silly resolveWithNewModule balanced-match@1.0.2 checking installable status
+157 http fetch GET 304 https://registry.npmjs.org/concat-map 463ms (from cache)
+158 silly pacote version manifest for concat-map@0.0.1 fetched in 470ms
+159 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+160 http fetch GET 200 https://registry.npmjs.org/import-fresh 316ms
+161 http fetch GET 304 https://registry.npmjs.org/js-yaml 317ms (from cache)
+162 silly pacote range manifest for js-yaml@^4.1.0 fetched in 330ms
+163 silly resolveWithNewModule js-yaml@4.1.0 checking installable status
+164 http fetch GET 200 https://registry.npmjs.org/globals 339ms
+165 http fetch GET 304 https://registry.npmjs.org/strip-json-comments 444ms (from cache)
+166 http fetch GET 200 https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz 287ms
+167 silly pacote range manifest for import-fresh@^3.2.1 fetched in 621ms
+168 silly resolveWithNewModule import-fresh@3.3.0 checking installable status
+169 http fetch GET 200 https://registry.npmjs.org/globals/-/globals-14.0.0.tgz 309ms
+170 silly pacote range manifest for globals@^14.0.0 fetched in 663ms
+171 silly resolveWithNewModule globals@14.0.0 checking installable status
+172 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz 333ms
+173 silly pacote range manifest for strip-json-comments@^3.1.1 fetched in 792ms
+174 silly resolveWithNewModule strip-json-comments@3.1.1 checking installable status
+175 http fetch GET 304 https://registry.npmjs.org/json-schema-traverse 354ms (from cache)
+176 http fetch GET 304 https://registry.npmjs.org/fast-json-stable-stringify 352ms (from cache)
+177 http fetch GET 304 https://registry.npmjs.org/uri-js 362ms (from cache)
+178 silly pacote range manifest for json-schema-traverse@^0.4.1 fetched in 369ms
+179 silly resolveWithNewModule json-schema-traverse@0.4.1 checking installable status
+180 silly pacote range manifest for fast-json-stable-stringify@^2.0.0 fetched in 369ms
+181 silly resolveWithNewModule fast-json-stable-stringify@2.1.0 checking installable status
+182 silly pacote range manifest for uri-js@^4.2.2 fetched in 376ms
+183 silly resolveWithNewModule uri-js@4.4.1 checking installable status
+184 http fetch GET 304 https://registry.npmjs.org/punycode 344ms (from cache)
+185 silly pacote range manifest for punycode@^2.1.0 fetched in 356ms
+186 silly resolveWithNewModule punycode@2.3.1 checking installable status
+187 http fetch GET 200 https://registry.npmjs.org/acorn-jsx 437ms
+188 http fetch GET 200 https://registry.npmjs.org/acorn 447ms
+189 http fetch GET 200 https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz 292ms
+190 silly pacote range manifest for acorn-jsx@^5.3.2 fetched in 772ms
+191 silly resolveWithNewModule acorn-jsx@5.3.2 checking installable status
+192 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.12.1.tgz 332ms
+193 silly pacote range manifest for acorn@^8.12.0 fetched in 811ms
+194 silly resolveWithNewModule acorn@8.12.1 checking installable status
+195 http fetch GET 200 https://registry.npmjs.org/resolve-from 309ms
+196 http fetch GET 200 https://registry.npmjs.org/parent-module 325ms
+197 http fetch GET 200 https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz 353ms
+198 http fetch GET 200 https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz 341ms
+199 silly pacote range manifest for resolve-from@^4.0.0 fetched in 694ms
+200 silly resolveWithNewModule resolve-from@4.0.0 checking installable status
+201 silly pacote range manifest for parent-module@^1.0.0 fetched in 699ms
+202 silly resolveWithNewModule parent-module@1.0.1 checking installable status
+203 http fetch GET 200 https://registry.npmjs.org/callsites 412ms
+204 http fetch GET 200 https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz 393ms
+205 silly pacote range manifest for callsites@^3.0.0 fetched in 825ms
+206 silly resolveWithNewModule callsites@3.1.0 checking installable status
+207 http fetch GET 304 https://registry.npmjs.org/argparse 323ms (from cache)
+208 silly pacote range manifest for argparse@^2.0.1 fetched in 333ms
+209 silly resolveWithNewModule argparse@2.0.1 checking installable status
+210 http fetch GET 200 https://registry.npmjs.org/levn 318ms
+211 http fetch GET 200 https://registry.npmjs.org/levn/-/levn-0.4.1.tgz 344ms
+212 silly pacote range manifest for levn@^0.4.1 fetched in 693ms
+213 silly resolveWithNewModule levn@0.4.1 checking installable status
+214 http fetch GET 200 https://registry.npmjs.org/type-check 499ms
+215 http fetch GET 200 https://registry.npmjs.org/prelude-ls 788ms
+216 http fetch GET 200 https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz 334ms
+217 silly pacote range manifest for type-check@~0.4.0 fetched in 850ms
+218 silly resolveWithNewModule type-check@0.4.0 checking installable status
+219 http fetch GET 200 https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz 349ms
+220 silly pacote range manifest for prelude-ls@^1.2.1 fetched in 1156ms
+221 silly resolveWithNewModule prelude-ls@1.2.1 checking installable status
+222 http fetch GET 200 https://registry.npmjs.org/fastq 374ms
+223 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.scandir 398ms
+224 http fetch GET 200 https://registry.npmjs.org/fastq/-/fastq-1.17.1.tgz 310ms
+225 silly pacote range manifest for fastq@^1.6.0 fetched in 707ms
+226 silly resolveWithNewModule fastq@1.17.1 checking installable status
+227 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 349ms
+228 silly pacote version manifest for @nodelib/fs.scandir@2.1.5 fetched in 768ms
+229 silly resolveWithNewModule @nodelib/fs.scandir@2.1.5 checking installable status
+230 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 603ms
+231 http fetch GET 200 https://registry.npmjs.org/run-parallel 607ms
+232 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz 304ms
+233 silly pacote version manifest for @nodelib/fs.stat@2.0.5 fetched in 925ms
+234 silly resolveWithNewModule @nodelib/fs.stat@2.0.5 checking installable status
+235 http fetch GET 200 https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz 529ms
+236 silly pacote range manifest for run-parallel@^1.1.9 fetched in 1147ms
+237 silly resolveWithNewModule run-parallel@1.2.0 checking installable status
+238 http fetch GET 200 https://registry.npmjs.org/queue-microtask 329ms
+239 http fetch GET 200 https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz 280ms
+240 silly pacote range manifest for queue-microtask@^1.2.2 fetched in 623ms
+241 silly resolveWithNewModule queue-microtask@1.2.3 checking installable status
+242 http fetch GET 200 https://registry.npmjs.org/reusify 292ms
+243 http fetch GET 200 https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz 315ms
+244 silly pacote range manifest for reusify@^1.0.4 fetched in 626ms
+245 silly resolveWithNewModule reusify@1.0.4 checking installable status
+246 http fetch GET 304 https://registry.npmjs.org/ansi-styles 371ms (from cache)
+247 http fetch GET 304 https://registry.npmjs.org/supports-color 377ms (from cache)
+248 silly pacote range manifest for ansi-styles@^4.1.0 fetched in 393ms
+249 silly resolveWithNewModule ansi-styles@4.3.0 checking installable status
+250 silly pacote range manifest for supports-color@^7.1.0 fetched in 395ms
+251 silly resolveWithNewModule supports-color@7.2.0 checking installable status
+252 http fetch GET 304 https://registry.npmjs.org/color-convert 347ms (from cache)
+253 silly pacote range manifest for color-convert@^2.0.1 fetched in 358ms
+254 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+255 http fetch GET 304 https://registry.npmjs.org/color-name 360ms (from cache)
+256 silly pacote range manifest for color-name@~1.1.4 fetched in 367ms
+257 silly resolveWithNewModule color-name@1.1.4 checking installable status
+258 http fetch GET 304 https://registry.npmjs.org/has-flag 412ms (from cache)
+259 silly pacote range manifest for has-flag@^4.0.0 fetched in 420ms
+260 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+261 http fetch GET 304 https://registry.npmjs.org/shebang-command 360ms (from cache)
+262 http fetch GET 304 https://registry.npmjs.org/path-key 366ms (from cache)
+263 http fetch GET 304 https://registry.npmjs.org/which 361ms (from cache)
+264 silly pacote range manifest for shebang-command@^2.0.0 fetched in 371ms
+265 silly resolveWithNewModule shebang-command@2.0.0 checking installable status
+266 silly pacote range manifest for which@^2.0.1 fetched in 370ms
+267 silly resolveWithNewModule which@2.0.2 checking installable status
+268 silly pacote range manifest for path-key@^3.1.0 fetched in 379ms
+269 silly resolveWithNewModule path-key@3.1.1 checking installable status
+270 http fetch GET 304 https://registry.npmjs.org/shebang-regex 316ms (from cache)
+271 silly pacote range manifest for shebang-regex@^3.0.0 fetched in 324ms
+272 silly resolveWithNewModule shebang-regex@3.0.0 checking installable status
+273 http fetch GET 304 https://registry.npmjs.org/isexe 316ms (from cache)
+274 silly pacote range manifest for isexe@^2.0.0 fetched in 324ms
+275 silly resolveWithNewModule isexe@2.0.0 checking installable status
+276 http fetch GET 200 https://registry.npmjs.org/esrecurse 337ms
+277 http fetch GET 304 https://registry.npmjs.org/estraverse 346ms (from cache)
+278 silly pacote range manifest for estraverse@^5.2.0 fetched in 356ms
+279 silly resolveWithNewModule estraverse@5.3.0 checking installable status
+280 http fetch GET 200 https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz 276ms
+281 silly pacote range manifest for esrecurse@^4.3.0 fetched in 629ms
+282 silly resolveWithNewModule esrecurse@4.3.0 checking installable status
+283 http fetch GET 200 https://registry.npmjs.org/flat-cache 370ms
+284 silly fetchPackageMetaData error for flat-cache@^4.0.0 request to https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz failed, reason: read ECONNABORTED
+285 timing stage:rollbackFailedOptional Completed in 40ms
+286 timing stage:runTopLevelLifecycles Completed in 351683ms
+287 silly saveTree backend@1.0.0
+287 silly saveTree +-- eslint@9.10.0
+287 silly saveTree | +-- @eslint-community/eslint-utils@4.4.0
+287 silly saveTree | | `-- eslint-visitor-keys@3.4.3
+287 silly saveTree | +-- @eslint-community/regexpp@4.11.1
+287 silly saveTree | +-- @eslint/config-array@0.18.0
+287 silly saveTree | | +-- @eslint/object-schema@2.1.4
+287 silly saveTree | | +-- debug@4.3.7
+287 silly saveTree | | | `-- ms@2.1.3
+287 silly saveTree | | `-- minimatch@3.1.2
+287 silly saveTree | |   `-- brace-expansion@1.1.11
+287 silly saveTree | |     +-- balanced-match@1.0.2
+287 silly saveTree | |     `-- concat-map@0.0.1
+287 silly saveTree | +-- @eslint/eslintrc@3.1.0
+287 silly saveTree | | +-- ajv@6.12.6
+287 silly saveTree | | | +-- fast-deep-equal@3.1.3
+287 silly saveTree | | | +-- fast-json-stable-stringify@2.1.0
+287 silly saveTree | | | +-- json-schema-traverse@0.4.1
+287 silly saveTree | | | `-- uri-js@4.4.1
+287 silly saveTree | | |   `-- punycode@2.3.1
+287 silly saveTree | | +-- espree@10.1.0
+287 silly saveTree | | | +-- acorn-jsx@5.3.2
+287 silly saveTree | | | +-- acorn@8.12.1
+287 silly saveTree | | | `-- eslint-visitor-keys@4.0.0
+287 silly saveTree | | +-- globals@14.0.0
+287 silly saveTree | | +-- ignore@5.3.2
+287 silly saveTree | | +-- import-fresh@3.3.0
+287 silly saveTree | | | +-- parent-module@1.0.1
+287 silly saveTree | | | | `-- callsites@3.1.0
+287 silly saveTree | | | `-- resolve-from@4.0.0
+287 silly saveTree | | +-- js-yaml@4.1.0
+287 silly saveTree | | | `-- argparse@2.0.1
+287 silly saveTree | | `-- strip-json-comments@3.1.1
+287 silly saveTree | +-- @eslint/js@9.10.0
+287 silly saveTree | +-- @eslint/plugin-kit@0.1.0
+287 silly saveTree | | `-- levn@0.4.1
+287 silly saveTree | |   +-- prelude-ls@1.2.1
+287 silly saveTree | |   `-- type-check@0.4.0
+287 silly saveTree | +-- @humanwhocodes/module-importer@1.0.1
+287 silly saveTree | +-- @humanwhocodes/retry@0.3.0
+287 silly saveTree | +-- @nodelib/fs.walk@1.2.8
+287 silly saveTree | | +-- @nodelib/fs.scandir@2.1.5
+287 silly saveTree | | | +-- @nodelib/fs.stat@2.0.5
+287 silly saveTree | | | `-- run-parallel@1.2.0
+287 silly saveTree | | |   `-- queue-microtask@1.2.3
+287 silly saveTree | | `-- fastq@1.17.1
+287 silly saveTree | |   `-- reusify@1.0.4
+287 silly saveTree | +-- ajv@6.12.6
+287 silly saveTree | +-- chalk@4.1.2
+287 silly saveTree | | +-- ansi-styles@4.3.0
+287 silly saveTree | | | `-- color-convert@2.0.1
+287 silly saveTree | | |   `-- color-name@1.1.4
+287 silly saveTree | | `-- supports-color@7.2.0
+287 silly saveTree | |   `-- has-flag@4.0.0
+287 silly saveTree | +-- cross-spawn@7.0.3
+287 silly saveTree | | +-- path-key@3.1.1
+287 silly saveTree | | +-- shebang-command@2.0.0
+287 silly saveTree | | | `-- shebang-regex@3.0.0
+287 silly saveTree | | `-- which@2.0.2
+287 silly saveTree | |   `-- isexe@2.0.0
+287 silly saveTree | +-- debug@4.3.7
+287 silly saveTree | +-- escape-string-regexp@4.0.0
+287 silly saveTree | +-- eslint-scope@8.0.2
+287 silly saveTree | | +-- esrecurse@4.3.0
+287 silly saveTree | | | `-- estraverse@5.3.0
+287 silly saveTree | | `-- estraverse@5.3.0
+287 silly saveTree | +-- eslint-visitor-keys@4.0.0
+287 silly saveTree | +-- espree@10.1.0
+287 silly saveTree | +-- esquery@1.6.0
+287 silly saveTree | +-- esutils@2.0.3
+287 silly saveTree | +-- fast-deep-equal@3.1.3
+287 silly saveTree | +-- file-entry-cache@8.0.0
+287 silly saveTree | +-- find-up@5.0.0
+287 silly saveTree | +-- glob-parent@6.0.2
+287 silly saveTree | | `-- is-glob@4.0.3
+287 silly saveTree | +-- ignore@5.3.2
+287 silly saveTree | +-- imurmurhash@0.1.4
+287 silly saveTree | +-- is-glob@4.0.3
+287 silly saveTree | +-- is-path-inside@3.0.3
+287 silly saveTree | +-- json-stable-stringify-without-jsonify@1.0.1
+287 silly saveTree | +-- lodash.merge@4.6.2
+287 silly saveTree | +-- minimatch@3.1.2
+287 silly saveTree | +-- natural-compare@1.4.0
+287 silly saveTree | +-- optionator@0.9.4
+287 silly saveTree | +-- strip-ansi@6.0.1
+287 silly saveTree | `-- text-table@0.2.0
+287 silly saveTree `-- nodemon@3.1.6
+287 silly saveTree   `-- semver@7.6.3
+288 warn notsup Unsupported engine for eslint@9.10.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+289 warn notsup Not compatible with your version of node/npm: eslint@9.10.0
+290 verbose notsup Not compatible with your version of node/npm: eslint@9.10.0
+290 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+290 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+291 warn notsup Unsupported engine for espree@10.1.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+292 warn notsup Not compatible with your version of node/npm: espree@10.1.0
+293 verbose notsup Not compatible with your version of node/npm: espree@10.1.0
+293 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+293 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+294 warn notsup Unsupported engine for eslint-scope@8.0.2: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+295 warn notsup Not compatible with your version of node/npm: eslint-scope@8.0.2
+296 verbose notsup Not compatible with your version of node/npm: eslint-scope@8.0.2
+296 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+296 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+297 warn notsup Unsupported engine for @eslint/js@9.10.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+298 warn notsup Not compatible with your version of node/npm: @eslint/js@9.10.0
+299 verbose notsup Not compatible with your version of node/npm: @eslint/js@9.10.0
+299 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+299 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+300 warn notsup Unsupported engine for eslint-visitor-keys@4.0.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+301 warn notsup Not compatible with your version of node/npm: eslint-visitor-keys@4.0.0
+302 verbose notsup Not compatible with your version of node/npm: eslint-visitor-keys@4.0.0
+302 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+302 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+303 warn notsup Unsupported engine for @eslint/eslintrc@3.1.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+304 warn notsup Not compatible with your version of node/npm: @eslint/eslintrc@3.1.0
+305 verbose notsup Not compatible with your version of node/npm: @eslint/eslintrc@3.1.0
+305 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+305 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+306 warn notsup Unsupported engine for @eslint/config-array@0.18.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+307 warn notsup Not compatible with your version of node/npm: @eslint/config-array@0.18.0
+308 verbose notsup Not compatible with your version of node/npm: @eslint/config-array@0.18.0
+308 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+308 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+309 warn notsup Unsupported engine for @eslint/plugin-kit@0.1.0: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+310 warn notsup Not compatible with your version of node/npm: @eslint/plugin-kit@0.1.0
+311 verbose notsup Not compatible with your version of node/npm: @eslint/plugin-kit@0.1.0
+311 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+311 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+312 warn notsup Unsupported engine for @humanwhocodes/retry@0.3.0: wanted: {"node":">=18.18"} (current: {"node":"16.15.1","npm":"6.14.17"})
+313 warn notsup Not compatible with your version of node/npm: @humanwhocodes/retry@0.3.0
+314 verbose notsup Not compatible with your version of node/npm: @humanwhocodes/retry@0.3.0
+314 verbose notsup Required: {"node":">=18.18"}
+314 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+315 warn notsup Unsupported engine for @eslint/object-schema@2.1.4: wanted: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"} (current: {"node":"16.15.1","npm":"6.14.17"})
+316 warn notsup Not compatible with your version of node/npm: @eslint/object-schema@2.1.4
+317 verbose notsup Not compatible with your version of node/npm: @eslint/object-schema@2.1.4
+317 verbose notsup Required: {"node":"^18.18.0 || ^20.9.0 || >=21.1.0"}
+317 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+318 warn notsup Unsupported engine for globals@14.0.0: wanted: {"node":">=18"} (current: {"node":"16.15.1","npm":"6.14.17"})
+319 warn notsup Not compatible with your version of node/npm: globals@14.0.0
+320 verbose notsup Not compatible with your version of node/npm: globals@14.0.0
+320 verbose notsup Required: {"node":">=18"}
+320 verbose notsup Actual:   {"npm":"6.14.17","node":"16.15.1"}
+321 verbose type system
+322 verbose stack FetchError: request to https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz failed, reason: read ECONNABORTED
+322 verbose stack     at ClientRequest.<anonymous> (/data/data/io.tempage.dorynode/files/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+322 verbose stack     at ClientRequest.emit (node:events:527:28)
+322 verbose stack     at TLSSocket.socketErrorListener (node:_http_client:454:9)
+322 verbose stack     at TLSSocket.emit (node:events:527:28)
+322 verbose stack     at emitErrorNT (node:internal/streams/destroy:157:8)
+322 verbose stack     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+322 verbose stack     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+323 verbose cwd /data/data/io.tempage.dorynode/app_HOME/accounting-pos-wallet-system/backend
+324 verbose Linux 4.14.141+
+325 verbose argv "/data/app/io.tempage.dorynode-Q3mWoQEuVEpL2zV2ebp-wA==/lib/arm64/lib_node_v16.so" "/data/user/0/io.tempage.dorynode/files/bin/npm" "install" "--save-dev" "nodemon" "eslint"
+326 verbose node v16.15.1
+327 verbose npm  v6.14.17
+328 error code ECONNABORTED
+329 error errno ECONNABORTED
+330 error request to https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz failed, reason: read ECONNABORTED
+331 verbose exit [ 1, true ]
